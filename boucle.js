@@ -30,15 +30,15 @@ for (let i = 0; i < 10; i++) {
 
 */
 
+/*
 // Exo 5
-/* 
-const int = 3;
 
-for (let i = 0; i < 12; i++) {
-  console.log(int + i);
+for (let i = 0; i < 10; i++) {
+  let int = i + 3;
+  console.log(int);
 }
-
 */
+
 /*
 // Exo 6
 
@@ -48,7 +48,6 @@ let number = 0;
 
 for (let i = 0; i < 4; i++) {
   console.log(number);
-  console.log(int);
   console.log(int * 2);
   console.log(int * 3);
 }
@@ -144,3 +143,23 @@ for (i = 2; i <=101; i++) {
 
 console.log("La somme est de " + somme);
 */
+/*
+for (let i = 0; i < 10; i++) {
+  if (i < 3) {
+    console.log("A");
+  } else {
+    if (i < 4) {
+      console.log("A");
+    } else {
+      if (i < 5) {
+        console.log("A");
+      } else {
+        console.log(i);
+      }
+    }
+  }
+}
+*/
+
+test(3);
+console.log(test(1000));
